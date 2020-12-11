@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BF0DD8C5-2A00-8DF5-08B0-37DF4F934D59}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.5.2f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_2;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_2;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PlaymodeTestsRunner">
+      <HintPath>Library\UnityAssemblies\UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Scripts\Achievements\Achievement.cs" />
+    <Compile Include="Assets\Scripts\Achievements\Achievements.cs" />
+    <Compile Include="Assets\Scripts\Achievements\AchievementsDatas.cs" />
+    <Compile Include="Assets\Scripts\Achievements\Reward.cs" />
+    <Compile Include="Assets\Scripts\AttributesMenu\AttributesMenu.cs" />
+    <Compile Include="Assets\Scripts\Encyclopedia\Encyclopedia.cs" />
+    <Compile Include="Assets\Scripts\Encyclopedia\EncyclopediaImages.cs" />
+    <Compile Include="Assets\Scripts\FairyShop\FairyShopMenu.cs" />
+    <Compile Include="Assets\Scripts\Game\Days\DayManager.cs" />
+    <Compile Include="Assets\Scripts\Game\Days\Days.cs" />
+    <Compile Include="Assets\Scripts\Game\Enemy\Boss\Skeleton Mage Boss\SkeletonMageBoss_Attack.cs" />
+    <Compile Include="Assets\Scripts\Game\Enemy\Boss\Skeleton Mage Boss\SkeletonMageBoss_Bomb.cs" />
+    <Compile Include="Assets\Scripts\Game\Enemy\Boss\Skeleton Mage Boss\SkeletonMageBoss_Health.cs" />
+    <Compile Include="Assets\Scripts\Game\Enemy\Boss\Skeleton Mage Boss\SkeletonMageBoss_MinionSpawn.cs" />
+    <Compile Include="Assets\Scripts\Game\Enemy\Boss\Skeleton Mage Boss\SkeletonMageBoss_Missile.cs" />
+    <Compile Include="Assets\Scripts\Game\Enemy\Boss\Skeleton Mage Boss\SkeletonMageBoss_Movement.cs" />
+    <Compile Include="Assets\Scripts\Game\Enemy\DamageDealer.cs" />
+    <Compile Include="Assets\Scripts\Game\Enemy\EnemyStarSetter.cs" />
+    <Compile Include="Assets\Scripts\Game\Enemy\Normal melee\Bat\Bat_Health.cs" />
+    <Compile Include="Assets\Scripts\Game\Enemy\Normal melee\Bat\Bat_Movement.cs" />
+    <Compile Include="Assets\Scripts\Game\Enemy\Normal melee\Goblin\Goblin_Health.cs" />
+    <Compile Include="Assets\Scripts\Game\Enemy\Normal melee\Goblin\Goblin_Movement.cs" />
+    <Compile Include="Assets\Scripts\Game\Enemy\Normal melee\Zombie\Zombie_Health.cs" />
+    <Compile Include="Assets\Scripts\Game\Enemy\Normal melee\Zombie\Zombie_Movement.cs" />
+    <Compile Include="Assets\Scripts\Game\Enemy\Normal ranged\Archer\Archer_Arrow.cs" />
+    <Compile Include="Assets\Scripts\Game\Enemy\Normal ranged\Archer\Archer_Attack.cs" />
+    <Compile Include="Assets\Scripts\Game\Enemy\Normal ranged\Archer\Archer_Health.cs" />
+    <Compile Include="Assets\Scripts\Game\Enemy\Normal ranged\Archer\Archer_Movement.cs" />
+    <Compile Include="Assets\Scripts\Game\Enemy\Normal ranged\Skeleton Mage\SkeletonMage_Attack.cs" />
+    <Compile Include="Assets\Scripts\Game\Enemy\Normal ranged\Skeleton Mage\SkeletonMage_Health.cs" />
+    <Compile Include="Assets\Scripts\Game\Enemy\Normal ranged\Skeleton Mage\SkeletonMage_Missile.cs" />
+    <Compile Include="Assets\Scripts\Game\Enemy\Normal ranged\Skeleton Mage\SkeletonMage_Movement.cs" />
+    <Compile Include="Assets\Scripts\Game\Others\AssumableController.cs" />
+    <Compile Include="Assets\Scripts\Game\Others\CameraShake.cs" />
+    <Compile Include="Assets\Scripts\Game\Others\ConfirmMenu\ConfirmMenu.cs" />
+    <Compile Include="Assets\Scripts\Game\Others\ConfirmMenu\SetFairyShardValue.cs" />
+    <Compile Include="Assets\Scripts\Game\Others\ConfirmMenu\SetMoneyValue.cs" />
+    <Compile Include="Assets\Scripts\Game\Others\DamageValueFadeOut.cs" />
+    <Compile Include="Assets\Scripts\Game\Others\Datas.cs" />
+    <Compile Include="Assets\Scripts\Game\Others\EnemyGOs.cs" />
+    <Compile Include="Assets\Scripts\Game\Others\Gold.cs" />
+    <Compile Include="Assets\Scripts\Game\Others\LevelUpImages_Movement.cs" />
+    <Compile Include="Assets\Scripts\Game\PauseMenu\PauseMenuButtons.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Attacks\AttackManager.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Attacks\AttackPrefabs.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Attacks\FireMage\FireElemental.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Attacks\FireMage\FireMine\FireMine.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Attacks\FireMage\FireMine\FireMineSplash.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Attacks\FireMage\FireNova.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Attacks\FireMage\FireRain\FireRain.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Attacks\FireMage\FireRain\FireRainDrop.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Attacks\FireMage\FireRain\FireRainSplash.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Attacks\FireMage\FireWall\FireWall.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Attacks\FireMage\FireWall\FireWallDamageDealer.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Attacks\FireMage\Fireball.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Attacks\FireMage\Firebreath.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Attacks\FireMage\Meteorite\Meteorite.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Attacks\FireMage\Meteorite\MeteoriteDrop.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Attacks\FireMage\Meteorite\MeteoriteSplash.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Attacks\FrostMage\IceStorm\IceStorm.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Attacks\MedallionPowers\MedallionPowers.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Attacks\SkillTypes.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Attacks\SkillTypes\Active_Dragable.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Attacks\SkillTypes\Active_Dragable_DragArea.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Attacks\SkillTypes\Active_Dragable_Margin_Spirtes.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Attacks\SkillTypes\Active_Normal.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Attacks\SkillTypes\Active_WithCharges.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Attacks\SkillTypes\SkillDatas.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Attacks\SkillTypes\UniversalSkillType.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Attacks\WeaponSkills\BasicAttack.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Attacks\WeaponSkills\Boomerang_Skill.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Attacks\WeaponSkills\Bow_Arrow.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Attacks\WeaponSkills\Bow_Skill.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Attacks\WeaponSkills\Crossbow_Skill.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Attacks\WeaponSkills\MagicMissile.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Attacks\WeaponSkills\Projectile_Boomerang.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Attacks\WeaponSkills\Staff_Skill.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Attacks\WeaponSkills\Staff_SkillSplash.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Attacks\WeaponSkills\WeaponSkills.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\ChangeDigitSprite.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\MoneyManager.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Player_Attack.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Player_Health.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Player_Level.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Player_Movement.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\VirtualJoystick.cs" />
+    <Compile Include="Assets\Scripts\Game\Player\Wall_Health.cs" />
+    <Compile Include="Assets\Scripts\GameplayMenu\GameplayMenu.cs" />
+    <Compile Include="Assets\Scripts\ItemsMenu\Item\Amulet.cs" />
+    <Compile Include="Assets\Scripts\ItemsMenu\Item\Boots.cs" />
+    <Compile Include="Assets\Scripts\ItemsMenu\Item\Head.cs" />
+    <Compile Include="Assets\Scripts\ItemsMenu\Item\Item.cs" />
+    <Compile Include="Assets\Scripts\ItemsMenu\Item\ItemStatType.cs" />
+    <Compile Include="Assets\Scripts\ItemsMenu\Item\Offhand\Offhand.cs" />
+    <Compile Include="Assets\Scripts\ItemsMenu\Item\Offhand\Shield.cs" />
+    <Compile Include="Assets\Scripts\ItemsMenu\Item\Offhand\Wand.cs" />
+    <Compile Include="Assets\Scripts\ItemsMenu\Item\Ring.cs" />
+    <Compile Include="Assets\Scripts\ItemsMenu\Item\Robe.cs" />
+    <Compile Include="Assets\Scripts\ItemsMenu\Item\Weapon\Boomerang.cs" />
+    <Compile Include="Assets\Scripts\ItemsMenu\Item\Weapon\Bow.cs" />
+    <Compile Include="Assets\Scripts\ItemsMenu\Item\Weapon\Crossbow.cs" />
+    <Compile Include="Assets\Scripts\ItemsMenu\Item\Weapon\Staff.cs" />
+    <Compile Include="Assets\Scripts\ItemsMenu\Item\Weapon\Weapon.cs" />
+    <Compile Include="Assets\Scripts\ItemsMenu\ItemController.cs" />
+    <Compile Include="Assets\Scripts\ItemsMenu\ItemDatas.cs" />
+    <Compile Include="Assets\Scripts\ItemsMenu\ItemDrag.cs" />
+    <Compile Include="Assets\Scripts\ItemsMenu\ItemImages.cs" />
+    <Compile Include="Assets\Scripts\LevelsMenu\LevelMenuButton.cs" />
+    <Compile Include="Assets\Scripts\LevelsMenu\LevelsMenu.cs" />
+    <Compile Include="Assets\Scripts\MainMenu\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\NewCharacterMenu\AllSkillDescriptionSamples.cs" />
+    <Compile Include="Assets\Scripts\NewCharacterMenu\CharacterDescriptions.cs" />
+    <Compile Include="Assets\Scripts\NewCharacterMenu\NewCharacterMenu.cs" />
+    <Compile Include="Assets\Scripts\NewCharacterMenu\NewCharacterMenuImages.cs" />
+    <Compile Include="Assets\Scripts\NewCharacterMenu\SkillDescriptionSample.cs" />
+    <Compile Include="Assets\Scripts\Others\AttributeCalculator.cs" />
+    <Compile Include="Assets\Scripts\Others\Confirm.cs" />
+    <Compile Include="Assets\Scripts\Others\Save_Load.cs" />
+    <Compile Include="Assets\Scripts\SkillMenu\SkillChooser.cs" />
+    <Compile Include="Assets\Scripts\SkillMenu\SkillMenu.cs" />
+    <Compile Include="Assets\Scripts\SkillMenu\SkillMenuDescriptions.cs" />
+    <Compile Include="Assets\Scripts\SkillMenu\SkillMenuImages.cs" />
+    <Compile Include="Assets\Scripts\SkillMenu\SkillMenuSkillNames.cs" />
+    <Compile Include="Assets\Scripts\SpecializationMenu\SpecializationAllBonusMoreInfoSample.cs" />
+    <Compile Include="Assets\Scripts\SpecializationMenu\SpecializationButtonStatus.cs" />
+    <Compile Include="Assets\Scripts\SpecializationMenu\SpecializationDatas.cs" />
+    <Compile Include="Assets\Scripts\SpecializationMenu\SpecializationDrag.cs" />
+    <Compile Include="Assets\Scripts\SpecializationMenu\SpecializationPathFinder.cs" />
+    <Compile Include="Assets\Scripts\SpecializationMenu\SpecializationTest.cs" />
+    <Compile Include="Assets\Scripts\StartGameMenu\ConfirmDeleteSlot.cs" />
+    <Compile Include="Assets\Scripts\StartGameMenu\StartGameMenu.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

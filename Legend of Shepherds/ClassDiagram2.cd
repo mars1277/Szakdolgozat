@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Robe">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAQAAAAAIAAgAgAAABAAAAEAIAEBEAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\ItemsMenu\Item\Robe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ring">
+    <Position X="7.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAIAAkAAAAADAAAAEAAAAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\ItemsMenu\Item\Ring.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Item">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIABAwAAAAAAAAABMAAgAASBABGAAAkAgEAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ItemsMenu\Item\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Head">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAQAAAAAIAAkAAAAADAAAAEAIAABEAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\ItemsMenu\Item\Head.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boots">
+    <Position X="9.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJAAAAAAAAAAAAAAIAAkAAAAADAAAAEAIAAAEAEACAA=</HashCode>
+      <FileName>Assets\Scripts\ItemsMenu\Item\Boots.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Amulet">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAQAAAAAIAAkAAAAADAAAAEAAAABAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\ItemsMenu\Item\Amulet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Offhand">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ItemsMenu\Item\Offhand\Offhand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shield">
+    <Position X="0.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAIAAkAAIAADAAAAEAACAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\ItemsMenu\Item\Offhand\Shield.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Wand">
+    <Position X="2.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAIAAkAAYAADAAAAECAAAAAAEEAAA=</HashCode>
+      <FileName>Assets\Scripts\ItemsMenu\Item\Offhand\Wand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boomerang">
+    <Position X="10.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAICAkAAAAADAAAAEAAAAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\ItemsMenu\Item\Weapon\Boomerang.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bow">
+    <Position X="6.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAICAkAAAAADAAAAEAAAABAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\ItemsMenu\Item\Weapon\Bow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Crossbow">
+    <Position X="8.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAICAkAAAAADAAAAEAAAABAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\ItemsMenu\Item\Weapon\Crossbow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Staff">
+    <Position X="5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAICEkAAAAADAAAAEAAAAAAAEAAAA=</HashCode>
+      <FileName>Assets\Scripts\ItemsMenu\Item\Weapon\Staff.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Weapon">
+    <Position X="11" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKACACgAAACAAAAAECAkAAAABEIAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\ItemsMenu\Item\Weapon\Weapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Stats">
+    <Position X="11.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Stats.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

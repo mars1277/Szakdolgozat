@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 3f85e20da46a1f3469ab6b0474c9280c
+timeCreated: 1480337493
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - fireMageAttack: {fileID: 145922, guid: e3a9fbf4569fd56429cf157003cac7ed, type: 2}
+  - fireMageSkill_1_1: {fileID: 131794, guid: 34a12ab05e102674dac8d29055f7c92c, type: 2}
+  - fireMageSkill_1_2: {fileID: 1000010847451122, guid: 9c1e26f4eebc25e4caca3013f83ac604,
+      type: 2}
+  - fireMageSkill_2_1: {fileID: 1000013786802280, guid: 21e95e14ed440874b96c4175fedcf463,
+      type: 2}
+  - fireMageSkill_2_2: {fileID: 1000014243928610, guid: b27127037a961f64cae00d81d3c4d5b6,
+      type: 2}
+  - fireMageSkill_3_1: {fileID: 1000011031881950, guid: fcb615fb3717c6945be3aa4d427fc9c9,
+      type: 2}
+  - fireMageSkill_3_2: {fileID: 1000013844814222, guid: 1ce69797d1368cb469c33623fea8288e,
+      type: 2}
+  - fireMageSkill_4_1: {fileID: 1000010172508856, guid: 99ffcb5df72645d40a65f224f90eed98,
+      type: 2}
+  - fireMageSkill_4_2: {fileID: 1000011132723288, guid: 91ba5c0f3dbd2f044b60e999ad9e4aeb,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

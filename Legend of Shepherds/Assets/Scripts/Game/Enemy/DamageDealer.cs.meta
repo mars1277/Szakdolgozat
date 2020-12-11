@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: cc99353317e8638428cfbbece06496ab
+timeCreated: 1473543282
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - damageValueCanvas: {fileID: 1000011128777966, guid: c54e975076cb4e0458ece21e3962d099,
+      type: 2}
+  - damageValueText: {fileID: 114000011991319848, guid: c54e975076cb4e0458ece21e3962d099,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

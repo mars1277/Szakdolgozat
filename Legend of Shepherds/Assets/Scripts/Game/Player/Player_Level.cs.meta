@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2fb833269f739a74fb861d807a590d65
+timeCreated: 1478810959
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - XPBar: {instanceID: 0}
+  - levelUpCanvas: {fileID: 1000013990291330, guid: 48e1a46c20806454aa1250cea99d3ddd,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

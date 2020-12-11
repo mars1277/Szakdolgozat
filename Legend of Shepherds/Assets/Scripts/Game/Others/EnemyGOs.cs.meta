@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 04badf4bfcb00b24faabbff985defd10
+timeCreated: 1474320077
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - dayPassedGO: {instanceID: 0}
+  - spawnPointGO: {instanceID: 0}
+  - GoblinGO: {fileID: 147798, guid: 98dead85c5c8cc242818d8e2b2ba0cc6, type: 2}
+  - BatGO: {fileID: 1000013084829270, guid: f8b9b4a4851e33144a8e1afb45777098, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

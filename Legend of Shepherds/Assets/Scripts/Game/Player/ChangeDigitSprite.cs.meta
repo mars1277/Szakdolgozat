@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: a18b13272f0812548a593e005c6e5033
+timeCreated: 1472398894
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - d0: {fileID: 21300092, guid: e561c21603a174142bf4acaabe8b0335, type: 3}
+  - d1: {fileID: 21300094, guid: e561c21603a174142bf4acaabe8b0335, type: 3}
+  - d2: {fileID: 21300096, guid: e561c21603a174142bf4acaabe8b0335, type: 3}
+  - d3: {fileID: 21300098, guid: e561c21603a174142bf4acaabe8b0335, type: 3}
+  - d4: {fileID: 21300100, guid: e561c21603a174142bf4acaabe8b0335, type: 3}
+  - d5: {fileID: 21300102, guid: e561c21603a174142bf4acaabe8b0335, type: 3}
+  - d6: {fileID: 21300104, guid: e561c21603a174142bf4acaabe8b0335, type: 3}
+  - d7: {fileID: 21300106, guid: e561c21603a174142bf4acaabe8b0335, type: 3}
+  - d8: {fileID: 21300108, guid: e561c21603a174142bf4acaabe8b0335, type: 3}
+  - d9: {fileID: 21300110, guid: e561c21603a174142bf4acaabe8b0335, type: 3}
+  - empty: {fileID: 21300130, guid: e561c21603a174142bf4acaabe8b0335, type: 3}
+  - thisImage: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
